@@ -3,9 +3,9 @@ import 'package:roll_dice_trial1/gradient_container.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(Colors.black, Colors.white),
       ),
     ),
   );
